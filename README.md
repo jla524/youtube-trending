@@ -18,9 +18,9 @@ https://www.kaggle.com/datasnaek/youtube-new
 
     with [Pip](https://pip.pypa.io/en/stable/):
     
-    `python -m venv env`
+    `python3 -m venv youtube_trending_env`
     
-    `source env/bin/activate`
+    `source youtube_trending_env/bin/activate`
     
     with [Anaconda](https://www.anaconda.com/distribution/):
     
@@ -40,7 +40,7 @@ https://www.kaggle.com/datasnaek/youtube-new
 
     `pip install ipykernel`
     
-    `ipython kernel install —-user —-name=youtube_trending_env`
+    `python3 -m ipykernel install --user --name=youtube_trending_env`
     
     You may need to create a new notebook with this environment and copy the content from youtube.ipynb.
     
